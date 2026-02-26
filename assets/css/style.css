@@ -1,9 +1,9 @@
 /* --- 1. Variables (Modern Tech Palette) --- */
 :root {
     /* This template uses a professional "Modern Tech" color scheme. */
-    --primary-color: #0A2647;   /* Bleu profond élégant */
-    --secondary-color: #1E3A5F; /* Bleu nuit raffiné */
-    --accent-color: #C9A86C;    /* Or doux (accent élégant) */
+    --primary-color: #0A2F44;   /* Bleu profond élégant */
+    --secondary-color: #1E4A6F; /* Bleu moyen raffiné */
+    --accent-color: #D4AF37;    /* Or brillant pour les accents */
 
     /* --- Shared Variables (These usually don't need to change) --- */
     --light-bg-color: #F8F9FA;
@@ -97,7 +97,7 @@ header p {
 
 /* --- 4. Navigation --- */
 nav {
-    background-color: rgba(10, 38, 71, 0.95); /* Adapté pour new primary color */
+    background-color: rgba(10, 47, 68, 0.95); /* Adapté pour new primary color */
     backdrop-filter: blur(5px);
     position: sticky;
     top: 0;
@@ -390,7 +390,7 @@ nav ul li a:hover::after {
 .contact-form textarea:focus {
     outline: none;
     border-color: var(--accent-color);
-    box-shadow: 0 0 0 3px rgba(201, 168, 108, 0.25); /* Adapté pour new accent color */
+    box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.25); /* Adapté pour new accent color */
 }
 
 .contact-form button.btn {
