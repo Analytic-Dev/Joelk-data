@@ -26,9 +26,9 @@
     <style>
         /* Palette de couleurs : bleu professionnel, gris neutre, or sobre pour les accents */
         :root {
-            --primary-dark: #0A2647;      /* Bleu profond élégant */
-            --primary-medium: #1E3A5F;    /* Bleu nuit raffiné */
-            --accent-gold: #C9A86C;        /* Or doux pour les accents (hover, bordures) */
+            --primary-dark: #0A2F44;      /* Bleu profond élégant */
+            --primary-medium: #1E4A6F;    /* Bleu moyen raffiné */
+            --accent-gold: #D4AF37;        /* Or brillant pour les accents */
             --text-light: #f0f4f8;         /* Texte clair sur fonds sombres */
             --text-dark: #333;              /* Texte principal sur fond clair */
             --bg-light: #f9f9f9;            /* Fond de section clair */
@@ -94,17 +94,17 @@
             padding: 0;
             gap: 30px;
         }
+        /* Style de navigation simplifié pour éviter la double barre */
         nav a {
             color: var(--text-light);
             text-decoration: none;
             font-weight: 700;
             font-size: 1.1rem;
             padding: 5px 0;
-            border-bottom: 2px solid transparent;
-            transition: border-color 0.3s;
+            transition: color 0.3s;
         }
         nav a:hover {
-            border-bottom-color: var(--accent-gold);
+            color: var(--accent-gold);
         }
 
         .section {
