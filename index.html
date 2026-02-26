@@ -19,300 +19,9 @@
     <!-- Font Awesome pour les icônes -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     
-    <!-- Votre feuille de style externe (vous pouvez la conserver) -->
+    <!-- Votre feuille de style externe (UNIQUE source de styles) -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- STYLES INTÉGRÉS POUR LES COULEURS DU SITE (suggestions professionnelles) -->
-    <style>
-        /* Palette de couleurs : bleu professionnel, gris neutre, or sobre pour les accents */
-        :root {
-            --primary-dark: #0a192f;      /* Bleu foncé pour l'en-tête et le pied de page */
-            --primary-medium: #172a45;    /* Bleu légèrement plus clair pour la navigation */
-            --accent-gold: #c9a86c;        /* Or doux pour les accents (hover, bordures) */
-            --text-light: #f0f4f8;         /* Texte clair sur fonds sombres */
-            --text-dark: #333;              /* Texte principal sur fond clair */
-            --bg-light: #f9f9f9;            /* Fond de section clair */
-            --card-bg: #ffffff;              /* Fond des cartes projet */
-            --shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-
-        body {
-            font-family: 'Lato', sans-serif;
-            margin: 0;
-            padding: 0;
-            color: var(--text-dark);
-            background-color: var(--bg-light);
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        header {
-            background-color: var(--primary-dark);
-            color: var(--text-light);
-            padding: 40px 0;
-            text-align: center;
-        }
-        header h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.8rem;
-            margin: 0 0 10px;
-            letter-spacing: 1px;
-        }
-        header p {
-            font-size: 1.3rem;
-            margin: 5px 0 15px;
-            opacity: 0.9;
-        }
-        .social-links a {
-            color: var(--text-light);
-            font-size: 1.8rem;
-            margin: 0 10px;
-            transition: color 0.3s ease, transform 0.2s;
-            display: inline-block;
-        }
-        .social-links a:hover {
-            color: var(--accent-gold);
-            transform: translateY(-3px);
-        }
-
-        nav {
-            background-color: var(--primary-medium);
-            padding: 15px 0;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            box-shadow: var(--shadow);
-        }
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            margin: 0;
-            padding: 0;
-            gap: 30px;
-        }
-        nav a {
-            color: var(--text-light);
-            text-decoration: none;
-            font-weight: 700;
-            font-size: 1.1rem;
-            padding: 5px 0;
-            border-bottom: 2px solid transparent;
-            transition: border-color 0.3s;
-        }
-        nav a:hover {
-            border-bottom-color: var(--accent-gold);
-        }
-
-        .section {
-            padding: 70px 0;
-        }
-        .section:nth-child(even) {
-            background-color: #fff;
-        }
-        h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.5rem;
-            text-align: center;
-            margin-top: 0;
-            margin-bottom: 50px;
-            color: var(--primary-dark);
-            position: relative;
-        }
-        h2:after {
-            content: '';
-            display: block;
-            width: 80px;
-            height: 3px;
-            background: var(--accent-gold);
-            margin: 15px auto 0;
-        }
-
-        /* About */
-        .about-content {
-            display: flex;
-            gap: 40px;
-            align-items: center;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .profile-photo {
-            width: 250px;
-            height: 250px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 4px solid var(--accent-gold);
-            box-shadow: var(--shadow);
-        }
-        .about-text {
-            flex: 1;
-            min-width: 300px;
-        }
-
-        /* Projects Grid */
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
-        }
-        .project-card {
-            background: var(--card-bg);
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: var(--shadow);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        .project-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-        }
-        .project-card img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            border-bottom: 3px solid var(--accent-gold);
-        }
-        .project-card-content {
-            padding: 20px;
-        }
-        .project-card h3 {
-            margin-top: 0;
-            font-size: 1.5rem;
-            color: var(--primary-dark);
-        }
-        .project-buttons {
-            display: flex;
-            gap: 15px;
-            margin-top: 20px;
-            flex-wrap: wrap;
-        }
-        .btn {
-            display: inline-block;
-            background: var(--primary-dark);
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 30px;
-            font-size: 0.95rem;
-            font-weight: 700;
-            transition: background 0.3s, transform 0.2s;
-            border: none;
-            cursor: pointer;
-            border: 2px solid transparent;
-        }
-        .btn:hover {
-            background: var(--primary-medium);
-            transform: scale(1.03);
-        }
-        .btn-secondary {
-            background: transparent;
-            color: var(--primary-dark);
-            border: 2px solid var(--primary-dark);
-        }
-        .btn-secondary:hover {
-            background: var(--primary-dark);
-            color: white;
-        }
-
-        /* Skills Table */
-        .skills-table {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-        }
-        .skill-column {
-            background: var(--card-bg);
-            padding: 25px 20px;
-            border-radius: 12px;
-            box-shadow: var(--shadow);
-            text-align: center;
-        }
-        .skill-header {
-            margin-bottom: 20px;
-        }
-        .skill-header i {
-            font-size: 2.5rem;
-            color: var(--accent-gold);
-        }
-        .skill-header h3 {
-            margin: 10px 0 0;
-            font-size: 1.6rem;
-            color: var(--primary-dark);
-        }
-        .skill-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        .skill-list li {
-            padding: 8px 0;
-            border-bottom: 1px dashed #ddd;
-        }
-        .skill-list li:last-child {
-            border-bottom: none;
-        }
-
-        /* Contact Form */
-        .contact-form {
-            max-width: 700px;
-            margin: 0 auto;
-            background: var(--card-bg);
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: var(--shadow);
-        }
-        .contact-form p {
-            text-align: center;
-            margin-bottom: 30px;
-            font-size: 1.1rem;
-        }
-        .form-group {
-            margin-bottom: 20px;
-        }
-        .form-group label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: 700;
-            color: var(--primary-dark);
-        }
-        .form-group input,
-        .form-group textarea {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 6px;
-            font-family: 'Lato', sans-serif;
-            font-size: 1rem;
-            box-sizing: border-box;
-        }
-        .form-group input:focus,
-        .form-group textarea:focus {
-            outline: none;
-            border-color: var(--accent-gold);
-        }
-        .contact-form button[type="submit"] {
-            width: 100%;
-            padding: 14px;
-            font-size: 1.2rem;
-        }
-
-        footer {
-            background: var(--primary-dark);
-            color: var(--text-light);
-            text-align: center;
-            padding: 30px 0;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            header h1 { font-size: 2.2rem; }
-            nav ul { flex-wrap: wrap; gap: 15px; }
-            .about-content { flex-direction: column; text-align: center; }
-        }
-    </style>
 </head>
 <body> 
 <!-- SECTION EN-TÊTE -->
@@ -324,10 +33,8 @@
         <div class="social-links">
             <!--💡 MIS À JOUR: Ajoutez vos liens vers vos réseaux sociaux et votre CV -->
             <a href="https://www.linkedin.com/in/joel-koffi-nguessan" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/Analytic-Dev/Analytic-Dev.github.io/blob/main/README.md" target="_blank" title="Détails des projets"><i class="fab fa-github"></i></a>
-            <!--💡 <a href="https://github.com/Analytic-Dev" target="_blank" title="GitHub"><i class="fab fa-github"></i></a> -->
+            <a href="https://github.com/Analytic-Dev" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
             <a href="mailto:joel.koffi@email.com" title="Email"><i class="fas fa-envelope"></i></a>
-            <!--💡 <a href="[VOTRE_URL_YOUTUBE]" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a> -->
             <a href="assets/Votre_Nom_CV.pdf" download title="Télécharger mon CV"><i class="fas fa-file-arrow-down"></i></a>
         </div>
     </div>  
@@ -350,20 +57,20 @@
         <h2>À propos de moi</h2>
         <div class="about-content">
             <!--💡 MIS À JOUR: Remplacez par votre propre photo dans assets/images/ -->
-            <img src="assets/images/Photo-KOFFI.jpg" alt=" " class="profile-photo">
+            <img src="assets/images/Photo-KOFFI.jpg" alt="Photo de profil Joel KOFFI" class="profile-photo">
             <div class="about-text">
                 <!--💡 MIS À JOUR: Rédigez votre propre texte 'À propos' -->
-    <p>
-        Data Analyst passionné, je transforme la donnée en décisions stratégiques 
-        grâce à une maîtrise avancée de l’analyse, de la modélisation et de la 
-        data visualisation. Je conçois des solutions data fiables, automatisées 
-        et orientées business qui optimisent la performance et accélèrent la 
-        prise de décision.</p>
-    <p>
-        Curieux et structuré, j’allie rigueur technique et compréhension métier 
-        pour délivrer des insights clairs, exploitables et à fort impact.</p>
-                <!--💡 <p>Je suis un professionnel de la data spécialisé dans la transformation de données complexes en informations exploitables. Mon travail consiste à créer des visualisations interactives et des récits basés sur les données pour aider les organisations à prendre des décisions éclairées.</p> -->
-                <!--💡 <p>Avec une solide expérience sur Power BI, SQL et la modélisation de données, je développe des rapports complets qui révèlent des tendances cachées. Ce portfolio présente une sélection de mes projets dans divers secteurs d'activité.</p> -->
+                <p>
+                    Data Analyst passionné, je transforme la donnée en décisions stratégiques 
+                    grâce à une maîtrise avancée de l’analyse, de la modélisation et de la 
+                    data visualisation. Je conçois des solutions data fiables, automatisées 
+                    et orientées business qui optimisent la performance et accélèrent la 
+                    prise de décision.
+                </p>
+                <p>
+                    Curieux et structuré, j’allie rigueur technique et compréhension métier 
+                    pour délivrer des insights clairs, exploitables et à fort impact.
+                </p>
             </div>
         </div>
     </div>
@@ -376,7 +83,7 @@
 
             <!--💡 MIS À JOUR: Remplacez par vos propres projets. Ajoutez-en autant que vous voulez !-->
             <!-- Projet 1 -->
-             <div class="project-card">
+            <div class="project-card">
                 <!--💡 MIS À JOUR: Ajoutez une image d'aperçu dans assets/images/ -->
                 <img src="assets/images/project-placeholder-1.jpg" alt="Aperçu projet 1">
                 <div class="project-card-content">
@@ -384,9 +91,9 @@
                     <p>Une brève description (une ou deux phrases) du projet, de son objectif et des outils utilisés.</p>
                     <div class="project-buttons">
                         <!--💡 MIS À JOUR: Ajoutez le lien vers le code/documentation sur GitHub -->
-                        <a href="[URL_GITHUB_DU_PROJET]" target="_blank" class="btn">Documentation</a>
+                        <a href="#" target="_blank" class="btn">Documentation</a>
                         <!--💡 MIS À JOUR: Ajoutez le lien vers le tableau de bord en ligne (Power BI, Tableau Public...) -->
-                        <a href="[URL_TABLEAU_DE_BORD]" target="_blank" class="btn btn-secondary">Voir le dashboard</a>
+                        <a href="#" target="_blank" class="btn btn-secondary">Voir le dashboard</a>
                     </div>
                 </div>
             </div>
@@ -398,8 +105,8 @@
                     <h3>Titre du projet 2</h3>
                     <p>Une brève description (une ou deux phrases) du projet, de son objectif et des outils utilisés.</p>
                     <div class="project-buttons">
-                        <a href="[URL_GITHUB_DU_PROJET]" target="_blank" class="btn">Documentation</a>
-                        <a href="[URL_TABLEAU_DE_BORD]" target="_blank" class="btn btn-secondary">Voir le dashboard</a>
+                        <a href="#" target="_blank" class="btn">Documentation</a>
+                        <a href="#" target="_blank" class="btn btn-secondary">Voir le dashboard</a>
                     </div>
                 </div>
             </div>
@@ -411,8 +118,8 @@
                     <h3>Titre du projet 3</h3>
                     <p>Une brève description (une ou deux phrases) du projet, de son objectif et des outils utilisés.</p>
                     <div class="project-buttons">
-                        <a href="[URL_GITHUB_DU_PROJET]" target="_blank" class="btn">Documentation</a>
-                        <a href="[URL_TABLEAU_DE_BORD]" target="_blank" class="btn btn-secondary">Voir le dashboard</a>
+                        <a href="#" target="_blank" class="btn">Documentation</a>
+                        <a href="#" target="_blank" class="btn btn-secondary">Voir le dashboard</a>
                     </div>
                 </div>
             </div>
@@ -424,8 +131,8 @@
                     <h3>Titre du projet 4</h3>
                     <p>Une brève description (une ou deux phrases) du projet, de son objectif et des outils utilisés.</p>
                     <div class="project-buttons">
-                        <a href="[URL_GITHUB_DU_PROJET]" target="_blank" class="btn">Documentation</a>
-                        <a href="[URL_TABLEAU_DE_BORD]" target="_blank" class="btn btn-secondary">Voir le dashboard</a>
+                        <a href="#" target="_blank" class="btn">Documentation</a>
+                        <a href="#" target="_blank" class="btn btn-secondary">Voir le dashboard</a>
                     </div>
                 </div>
             </div>
@@ -494,7 +201,7 @@
         
         <!--💡 MIS À JOUR: Allez sur formsubmit.co et remplacez l'email par le vôtre -->
         <form action="https://formsubmit.co/joelmemarjc@gmail.com" method="POST" class="contact-form">
-            <p> Intéressé par une collaboration ou des questions sur mon travail ? N'hésitez pas à m'écrire !</p>
+            <p>Intéressé par une collaboration ou des questions sur mon travail ? N'hésitez pas à m'écrire !</p>
 
             <!-- Champs du formulaire -->
             <div class="form-group">
@@ -532,9 +239,8 @@
     </div>
 </footer>
 
-<!-- Script principal (si vous en avez un) -->
+<!-- Script principal -->
 <script src="assets/js/main.js"></script>
 
 </body>
 </html>
-
