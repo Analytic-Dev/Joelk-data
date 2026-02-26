@@ -437,10 +437,12 @@
 <!-- SECTION COMPÉTENCES -->
 <section id="skills" class="section">
     <div class="container">
-        <h2>Compétences techniques</h2>
-        <div class="skills-table">
+        <h2>Mes compétences</h2>
+        
+        <!-- Compétences Techniques -->
+        <h3 style="text-align: center; margin: 40px 0 30px; color: var(--primary-dark); font-family: 'Playfair Display', serif; font-size: 1.8rem;">Techniques</h3>
+        <div class="skills-table" style="margin-bottom: 50px;">
             
-            <!--💡 MIS À JOUR: Personnalisez vos compétences dans chaque catégorie -->
             <!-- Colonne 1 : Data Visualisation -->
             <div class="skill-column">
                 <div class="skill-header">
@@ -448,41 +450,94 @@
                     <h3>Data Visualisation</h3>
                 </div>
                 <ul class="skill-list">
-                    <li>Power BI</li>
-                    <li>Tableau</li>
-                    <li>Looker Studio</li>
-                    <li>Tableaux de bord Excel</li>
+                    <li><strong>Power BI :</strong> DAX, M, Power Query, automatisation, visualisation, modèle en étoile/flocon, Row-Level Security</li>
+                    <li><strong>Tableau :</strong> Calculs, tableaux de bord interactifs, LOD, storytelling</li>
+                    <li><strong>Looker Studio :</strong> Connecteurs, rapports dynamiques, blending de données</li>
+                    <li><strong>Excel :</strong> TCD, graphiques avancés, macros VBA</li>
                 </ul>
             </div>
 
-            <!-- Colonne 2 : Analyse de données -->
+            <!-- Colonne 2 : Langage de traitement de données -->
             <div class="skill-column">
                 <div class="skill-header">
-                    <i class="fas fa-search-plus"></i>
-                    <h3>Analyse de données</h3>
+                    <i class="fas fa-code"></i>
+                    <h3>Langage de traitement de données</h3>
                 </div>
                 <ul class="skill-list">
-                    <li>SQL</li>
-                    <li>Excel avancé</li>
-                    <li>Python (Pandas)</li>
-                    <li>Google Sheets</li>
+                    <li><strong>SQL :</strong> Requêtes complexes, jointures, sous-requêtes, optimisation, procédures stockées</li>
+                    <li><strong>BigQuery (GCP) :</strong> Requêtes optimisées, partitionnement, clustering, analyse de grands volumes</li>
+                    <li><strong>Snowflake :</strong> Data warehousing, requêtes scalables, time travel, partage de données</li>
+                    <li><strong>Python :</strong> Pandas, NumPy, Matplotlib, Seaborn, analyses statistiques</li>
+                    <li><strong>Excel avancé :</strong> Index/Equiv, RECHERCHEX, Power Pivot, Power Query</li>
+                    <li><strong>Google Sheets :</strong> QUERY, IMPORTRANGE, Google Apps Script</li>
+                    <li><strong>GitHub / GitLab :</strong> Gestion de versions, collaboration, CI/CD, documentation de projets</li>
                 </ul>
             </div>
 
-            <!-- Colonne 3 : Modélisation & ETL -->
+            <!-- Colonne 3 : Modélisation & Automatisation des processus -->
             <div class="skill-column">
                 <div class="skill-header">
-                    <i class="fas fa-cogs"></i>
-                    <h3>Modélisation & ETL</h3>
+                    <i class="fas fa-robot"></i>
+                    <h3>Modélisation & Automatisation des processus</h3>
                 </div>
                 <ul class="skill-list">
-                    <li>Power Query (M)</li>
-                    <li>DAX</li>
-                    <li>Schéma en étoile</li>
-                    <li>Processus ETL</li>
+                    <li><strong>Power Query (M) :</strong> Transformations avancées, fusion de requêtes, paramétrage</li>
+                    <li><strong>Scripts Python :</strong> Automatisation ETL, scraping, traitement par lots</li>
+                    <li><strong>N8N :</strong> Workflows automatisés, intégrations API, no-code/low-code</li>
+                    <li><strong>Power Automate :</strong> Flux de travail, connecteurs, notifications automatisées</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Compétences Fonctionnelles Data -->
+        <h3 style="text-align: center; margin: 40px 0 30px; color: var(--primary-dark); font-family: 'Playfair Display', serif; font-size: 1.8rem;">Fonctionnelles</h3>
+        <div class="skills-table">
+            
+            <!-- Colonne 1 : Business & Métier -->
+            <div class="skill-column">
+                <div class="skill-header">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Business & Métier</h3>
+                </div>
+                <ul class="skill-list">
+                    <li>Analyse des besoins métier</li>
+                    <li>Définition d'indicateurs (KPI)</li>
+                    <li>Veille sectorielle</li>
+                    <li>Aide à la décision stratégique</li>
                 </ul>
             </div>
 
+            <!-- Colonne 2 : Gestion de projet Data -->
+            <div class="skill-column">
+                <div class="skill-header">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>Gestion de projet Data</h3>
+                </div>
+                <ul class="skill-list">
+                    <li>Méthodes agiles (Scrum)</li>
+                    <li>Gestion de cycle de vie des données</li>
+                    <li><strong>Développement et industrialisation de dashboard</strong></li>
+                    <li><strong>Automatisation des reportings</strong></li>
+                    <li><strong>Déploiement continu</strong></li>
+                    <li><strong>Maintenance évolutive</strong></li>
+                    <li>Documentation technique</li>
+                    <li>Gestion des parties prenantes</li>
+                </ul>
+            </div>
+
+            <!-- Colonne 3 : Communication & Impact -->
+            <div class="skill-column">
+                <div class="skill-header">
+                    <i class="fas fa-comments"></i>
+                    <h3>Communication & Impact</h3>
+                </div>
+                <ul class="skill-list">
+                    <li><strong>Vulgarisation des résultats d'analyse</strong></li>
+                    <li>Data Storytelling</li>
+                    <li>Reporting clair et synthétique</li>
+                    <li>Formation et accompagnement</li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>
