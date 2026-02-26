@@ -1,4 +1,4 @@
-/* --- STYLE.CSS - VERSION PROFESSIONNELLE UNIFIÉE --- */
+/* --- STYLE.CSS - VERSION FINALE - DISPOSITION CAPTURE_PROJET --- */
 
 /* --- 1. Variables (Palette Blue Tech) --- */
 :root {
@@ -194,87 +194,87 @@ nav ul li a:hover::after {
     line-height: 1.8;
 }
 
-/* --- 5.2 Projects Grid --- */
+/* --- 5.2 Projects Grid - Version FINALE (disposition Capture_projet) --- */
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 35px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 30px;
+    margin-top: 50px;
 }
 
 .project-card {
-    background: var(--card-bg);
-    border-radius: 16px;
+    background: transparent;
+    border-radius: 0;
     overflow: hidden;
-    box-shadow: var(--shadow);
-    transition: all 0.3s ease;
-    border: 1px solid var(--border-light);
+    box-shadow: none;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba(10, 38, 71, 0.12);
+    transform: translateY(-5px);
 }
 
 .project-card img {
     width: 100%;
-    height: 210px;
+    height: 180px;
     object-fit: cover;
-    border-bottom: 3px solid var(--accent-teal);
+    border-radius: 6px;
+    margin-bottom: 20px;
 }
 
 .project-card-content {
-    padding: 25px;
+    padding: 0;
 }
 
 .project-card h3 {
     font-family: var(--font-heading);
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-bottom: 12px;
     color: var(--primary-dark);
+    font-weight: 600;
 }
 
 .project-card p {
     color: var(--text-muted);
-    margin-bottom: 25px;
-    font-size: 0.98rem;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    line-height: 1.5;
 }
 
 .project-buttons {
     display: flex;
-    gap: 15px;
+    gap: 25px;
+    margin-top: 5px;
 }
 
-.btn {
-    display: inline-block;
-    background: var(--primary-dark);
-    color: var(--text-light);
-    padding: 12px 25px;
-    border-radius: 40px;
-    font-weight: 600;
+.project-buttons a {
+    color: var(--accent-blue);
+    text-decoration: none;
+    font-weight: 500;
     font-size: 0.95rem;
-    transition: all 0.3s ease;
-    flex: 1;
-    text-align: center;
-    border: 2px solid transparent;
-    letter-spacing: 0.3px;
+    transition: color 0.3s ease;
+    position: relative;
 }
 
-.btn:hover {
-    background: var(--accent-blue);
-    color: var(--text-light);
-    transform: translateY(-2px);
+.project-buttons a::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--accent-teal);
+    transition: width 0.3s ease;
 }
 
-.btn-secondary {
-    background: transparent;
-    color: var(--primary-dark);
-    border: 2px solid var(--primary-dark);
+.project-buttons a:hover {
+    color: var(--accent-teal);
 }
 
-.btn-secondary:hover {
-    background: var(--primary-dark);
-    color: var(--text-light);
-    border-color: var(--primary-dark);
+.project-buttons a:hover::after {
+    width: 100%;
 }
 
 /* --- 5.3 Skills Section --- */
@@ -401,6 +401,8 @@ nav ul li a:hover::after {
     border: none;
     cursor: pointer;
     border-radius: 40px;
+    color: white;
+    transition: all 0.3s ease;
 }
 
 .contact-form button.btn:hover {
@@ -424,6 +426,10 @@ footer p {
 
 /* --- 7. Responsive --- */
 @media (max-width: 992px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
     .skills-table {
         grid-template-columns: 1fr 1fr;
     }
@@ -445,10 +451,17 @@ footer p {
     .about-content {
         flex-direction: column;
         text-align: center;
+        gap: 30px;
+    }
+    
+    .profile-photo {
+        width: 220px;
+        height: 220px;
     }
     
     .projects-grid {
         grid-template-columns: 1fr;
+        gap: 30px;
     }
     
     .skills-table {
