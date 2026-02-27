@@ -482,3 +482,21 @@ footer p {
 .skill-item span {
     display: block;
 }
+
+/* Alignement */
+.skill-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+
+.skill-item .bullet {
+    color: #D4AF37;
+    width: 20px;
+    flex-shrink: 0;
+}
+
+.skill-item span:last-child {
+    line-height: 1.4;
+    display: block;
+}
