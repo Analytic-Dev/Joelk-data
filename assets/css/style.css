@@ -457,55 +457,18 @@ footer p {
     }
 }
 
-/* Structure des tableaux de compétences */
-.skills-table {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-.skill-column {
-    background: white;
-    padding: 25px;
-    border-radius: 15px;
-    flex: 1;
-    min-width: 280px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-}
-
-/* En-têtes */
-.skill-header {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.skill-header h3 {
-    margin: 0;
-}
-
-/* Lignes de compétences (bullet + texte) */
-.skill-item {
+/* Correction d’alignement des puces dans la section compétences */
+.skills-table .skill-column > div > div {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 12px;
 }
 
-.skill-item .bullet {
-    width: 20px;
+.skills-table .skill-column > div > div > span:first-child {
+    width: 20px !important;
     flex-shrink: 0;
-    color: #D4AF37;
-    font-weight: bold;
-    line-height: 1.4;
+    display: inline-block;
 }
 
-.skill-item span {
-    display: block;
-}
-
-/* Espacement des sous-sections */
-.section h2 {
-    margin-top: 40px;
-    margin-bottom: 20px;
+.skills-table .skill-column > div > div > span:last-child {
+    display: inline-block;
 }
