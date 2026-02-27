@@ -472,3 +472,13 @@ footer p {
 .skills-table .skill-column > div > div > span:last-child {
     display: inline-block;
 }
+
+/* Standardisation de l’espace entre la puce et le texte */
+.skill-item .bullet {
+    width: 10px;       /* taille fixe */
+    margin-right: 12px;/* espace identique pour toutes les lignes */
+}
+
+.skill-item span {
+    display: block;
+}
