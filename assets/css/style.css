@@ -456,3 +456,17 @@ footer p {
         padding-bottom: 30px;
     }
 }
+
+/* À AJOUTER DANS VOTRE FICHIER CSS */
+.skill-column > div > div {
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.skill-column > div > div span:first-child {
+    color: #D4AF37;
+    display: inline-block;
+    width: auto;
+}
