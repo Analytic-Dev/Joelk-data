@@ -2,6 +2,13 @@
 
 # 👋 Bienvenue sur mon portefolio de projets
 
+<h1 align="center" style="font-weight:700; font-size:38px;">
+  <span style="background: linear-gradient(90deg, #0A66C2, #4C9AFF); -webkit-background-clip: text; color: transparent;">
+    👋 Bienvenue sur mon GitHub
+  </span>
+</h1>
+
+
 ![GitHub followers](https://img.shields.io/github/followers/Analytic-Dev?style=social) 
 ![GitHub stars](https://img.shields.io/github/stars/Analytic-Dev?style=social)
 <!-- ![Top Language](https://img.shields.io/github/languages/top/Analytic-Dev/Joelk-data?style=flat-square) -->
