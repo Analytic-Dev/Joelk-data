@@ -55,7 +55,7 @@ Dans ce portfolio, vous découvrirez une sélection de projets illustrant ma man
 - **Langages & traitement** : Python (Pandas, NumPy, Matplotlib), SQL, Excel avancé  
 - **Data platforms** : BigQuery, Snowflake, ETL  
 - **Automation & apps** : Power Apps, Power Automate, Scripts Python, N8N  
-- **Workflow & collaboration** : GitLab, SharePoint, Teams  
+- **Workflow & collaboration** : GitLab/Github, SharePoint, Teams, Monday.com  
 - **Méthodologie** : Agile
 
 ---
