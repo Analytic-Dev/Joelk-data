@@ -52,7 +52,7 @@ Sur ce GitHub, vous trouverez une sélection de projets illustrant ma manière d
 ![N8N](https://img.shields.io/badge/N8N-FF4A00?style=for-the-badge&logo=n8n&logoColor=white)
 ![Power Automate](https://img.shields.io/badge/Power%20Automate-0078D4?style=for-the-badge&logo=microsoftpowerautomate&logoColor=white)
 
-- **DataViz** : Power BI, Tableau, Looker Studio  
+- **`DataViz`** : Power BI, Tableau, Looker Studio  
 - **Langages & traitement** : Python (Pandas, NumPy, Matplotlib), SQL, Excel avancé  
 - **Data platforms** : BigQuery, Snowflake, ETL  
 - **Automation & apps** : Power Apps, Power Automate, Scripts Python, N8N  
