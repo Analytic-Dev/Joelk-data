@@ -1,7 +1,7 @@
 # Joel KOFFI
-Portfolio Data
+/*Portfolio Data*/
 
-# 👋 Bienvenue sur mon GitHub
+# 👋 Bienvenue sur mon portefolio de projets
 
 ![GitHub followers](https://img.shields.io/github/followers/TON_USERNAME?style=social) 
 ![GitHub stars](https://img.shields.io/github/stars/TON_USERNAME?style=social)
@@ -10,7 +10,7 @@ Portfolio Data
 Je suis **Data Analyst confirmé**, passionné par la transformation de données complexes en **insights clairs, utiles et actionnables**.  
 Mon objectif : aider les entreprises à mieux piloter leur performance grâce à des analyses fiables, des dashboards intelligents et une exploitation optimisée de leurs données.
 
-Sur ce GitHub, vous trouverez une sélection de projets illustrant ma manière de **penser, structurer et valoriser la donnée**.
+Dans ce portfolio, vous découvrirez une sélection de projets illustrant ma manière de **penser, structurer et valoriser la donnée**, en combinant expertise technique et compréhension métier.
 
 ---
 
