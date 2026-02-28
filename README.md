@@ -53,7 +53,7 @@ Sur ce GitHub, vous trouverez une sélection de projets illustrant ma manière d
 ![Power Automate](https://img.shields.io/badge/Power%20Automate-0078D4?style=for-the-badge&logo=microsoftpowerautomate&logoColor=white)
 
 - <img src="https://via.placeholder.com/120x30/000000/FFFFFF?text=DataViz" alt="DataViz"> : Power BI, Tableau, Looker Studio  
-- **Langages & traitement** : Python (Pandas, NumPy, Matplotlib), SQL, Excel avancé  
+- **`DataViz`** : Python (Pandas, NumPy, Matplotlib), SQL, Excel avancé  
 - **Data platforms** : BigQuery, Snowflake, ETL  
 - **Automation & apps** : Power Apps, Power Automate, Scripts Python, N8N  
 - **Workflow & collaboration** : GitLab, SharePoint, Teams  
