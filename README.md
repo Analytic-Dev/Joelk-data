@@ -46,11 +46,16 @@ Sur ce GitHub, vous trouverez une sélection de projets illustrant ma manière d
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Power Apps](https://img.shields.io/badge/Power%20Apps-742774?style=for-the-badge&logo=microsoftpowerapps&logoColor=white)
+![Looker Studio](https://img.shields.io/badge/Looker%20Studio-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-0099F9?style=for-the-badge&logo=snowflake&logoColor=white)
+![N8N](https://img.shields.io/badge/N8N-FF4A00?style=for-the-badge&logo=n8n&logoColor=white)
+![Power Automate](https://img.shields.io/badge/Power%20Automate-0078D4?style=for-the-badge&logo=microsoftpowerautomate&logoColor=white)
 
-- **DataViz** : Power BI, Tableau  
-- **Langages & traitement** : Python (Pandas, NumPy, Matplotlib), SQL  
-- **Data platforms** : BigQuery, ETL  
-- **Automation & apps** : Power Apps, Power Query  
+- **DataViz** : Power BI, Tableau, Looker Studio  
+- **Langages & traitement** : Python (Pandas, NumPy, Matplotlib), SQL, Excel avancé  
+- **Data platforms** : BigQuery, Snowflake, ETL  
+- **Automation & apps** : Power Apps, Power Automate, Scripts Python, N8N  
 - **Workflow & collaboration** : GitLab, SharePoint, Teams  
 - **Méthodologie** : Agile
 
@@ -77,4 +82,3 @@ Chaque projet reflète **ma rigueur, ma capacité d’analyse et ma pédagogie**
 ---
 
 > ⚡ Astuce : cliquez sur les projets pour découvrir comment j’ai transformé les données en solutions concrètes et impactantes !
-
