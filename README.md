@@ -4,7 +4,7 @@
 
 ![GitHub followers](https://img.shields.io/github/followers/Analytic-Dev?style=social) 
 ![GitHub stars](https://img.shields.io/github/stars/Analytic-Dev?style=social)
-![Top Language](https://img.shields.io/github/languages/top/Analytic-Dev?style=flat-square)
+![Top Language](https://img.shields.io/github/languages/top/Analytic-Dev/Joelk-data)
 
 Je suis **Data Analyst confirmé**, passionné par la transformation de données complexes en **insights clairs, utiles et actionnables**.  
 Mon objectif : aider les entreprises à mieux piloter leur performance grâce à des analyses fiables, des dashboards intelligents et une exploitation optimisée de leurs données.
