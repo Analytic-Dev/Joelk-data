@@ -1,5 +1,4 @@
 # Joel KOFFI
-/*Portfolio Data*/
 
 # 👋 Bienvenue sur mon portefolio de projets
 
