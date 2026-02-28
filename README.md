@@ -74,8 +74,9 @@ Chaque projet reflète **ma rigueur, ma capacité d’analyse et ma pédagogie**
 
 ## 📫 Me contacter
 
-📧 Email : *(le tien ici)*  
-🔗 LinkedIn : *(ton lien ici)*  
+📧 Email : *joelmemarjc@gmail.com*
+📞 Téléphone : *+33 7 63 45 25 69*  
+🔗 LinkedIn : *www.linkedin.com/in/joel-koffi-nguessan*  
 🌐 Portfolio GitHub.io : *(déjà accessible via ton site)*
 
 ---
