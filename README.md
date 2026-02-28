@@ -3,35 +3,35 @@ Portfolio Data
 
 # 👋 Bienvenue sur mon GitHub
 
-![Data Analyst GIF](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
+![GitHub followers](https://img.shields.io/github/followers/TON_USERNAME?style=social) 
+![GitHub stars](https://img.shields.io/github/stars/TON_USERNAME?style=social)
+![Top Language](https://img.shields.io/github/languages/top/TON_USERNAME?style=flat-square)
 
 Je suis **Data Analyst confirmé**, passionné par la transformation de données complexes en **insights clairs, utiles et actionnables**.  
-Mon objectif : aider les entreprises à **mieux piloter leur performance** grâce à des analyses fiables, des dashboards intelligents et une exploitation optimisée de leurs données.
+Mon objectif : aider les entreprises à mieux piloter leur performance grâce à des analyses fiables, des dashboards intelligents et une exploitation optimisée de leurs données.
+
+Sur ce GitHub, vous trouverez une sélection de projets illustrant ma manière de **penser, structurer et valoriser la donnée**.
 
 ---
 
 ## 🚀 Ce que je fais
 
 ### 🎯 Analyse & décision
-![Insight GIF](https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif)
 - Transformer des données brutes en indicateurs pertinents  
 - Construire des dashboards lisibles et orientés action  
 - Identifier les leviers de performance et les opportunités  
 
 ### 🧠 Modélisation & Data Quality
-![Data Quality GIF](https://media.giphy.com/media/3o6Zt6ML6BklcajjsA/giphy.gif)
 - Structurer et modéliser les données de manière fiable  
 - Garantir cohérence et intégrité dans les analyses  
 - Mettre en place des workflows data efficaces  
 
 ### ⚙️ Automatisation & optimisation
-![Automation GIF](https://media.giphy.com/media/3o7aCTPPm4OHfRLSH6/giphy.gif)
 - Automatiser les processus de reporting  
 - Mettre en place des flux de données continus et robustes  
 - Simplifier la vie des équipes grâce à des outils intuitifs  
 
 ### 🤝 Collaboration & vulgarisation
-![Teamwork GIF](https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif)
 - Travailler au plus proche des métiers  
 - Reformuler les besoins pour concevoir la solution adaptée  
 - Rendre la donnée accessible à tous, même aux non-experts  
@@ -52,18 +52,19 @@ Mon objectif : aider les entreprises à **mieux piloter leur performance** grâc
 - **Data platforms** : BigQuery, ETL  
 - **Automation & apps** : Power Apps, Power Query  
 - **Workflow & collaboration** : GitLab, SharePoint, Teams  
-- **Méthodologie** : Agile  
+- **Méthodologie** : Agile
 
 ---
 
-## 📌 Projets à découvrir
+## 📌 Ce que vous trouverez dans mes projets
 
 - Analyses exploratoires et prédictives  
+- Manipulation et préparation de données  
 - Dashboards Power BI orientés pilotage  
 - Scripts automatisés (Python/SQL)  
 - Études mêlant technique & compréhension métier  
 
-Chaque projet illustre **ma rigueur, mon sens de l’analyse et ma pédagogie**.  
+Chaque projet reflète **ma rigueur, ma capacité d’analyse et ma pédagogie**.
 
 ---
 
@@ -71,8 +72,9 @@ Chaque projet illustre **ma rigueur, mon sens de l’analyse et ma pédagogie**.
 
 📧 Email : *(le tien ici)*  
 🔗 LinkedIn : *(ton lien ici)*  
-🌐 Portfolio GitHub.io : *(déjà accessible via ton site)*  
+🌐 Portfolio GitHub.io : *(déjà accessible via ton site)*
 
 ---
 
-> ⚡ Astuce : explore mes projets pour voir comment je transforme les données en **solutions concrètes et impactantes** !
+> ⚡ Astuce : cliquez sur les projets pour découvrir comment j’ai transformé les données en solutions concrètes et impactantes !
+
