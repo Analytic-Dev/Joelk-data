@@ -374,22 +374,24 @@
         <h2>Mes projets</h2>
         <div class="projects-grid">
 
-            <!-- PROJET 1 - CORRIGÉ AVEC BOUTON POUR MODALE -->
-            <div class="project-card">
+            <!--💡 MIS À JOUR: Remplacez par vos propres projets. Ajoutez-en autant que vous voulez !-->
+            <!-- Projet 1 -->
+             <div class="project-card">
+                <!--💡 MIS À JOUR: Ajoutez une image d'aperçu dans assets/images/ -->
                 <img src="assets/images/rh-vueEns.PNG" alt=" ">
                 <div class="project-card-content">
                     <h3>Tableau de Bord RH – Analyse des Effectifs & Attrition</h3>
                     <p>Un tableau de bord Power BI complet permettant de suivre les effectifs, analyser l’attrition et comprendre les facteurs influençant la rétention des employés grâce à des KPI clés, des visualisations dynamiques et un design UX/UI optimisé.</p>
                     <div class="project-buttons">
+                        <!--💡 MIS À JOUR: Ajoutez le lien vers le code/documentation sur GitHub -->
                         <a href="https://github.com/Analytic-Dev/Joelk-data/blob/main/docs/projet1.md" target="_blank" class="btn">Documentation</a>
-                        <button onclick="openPdfModal('https://github.com/Analytic-Dev/Joelk-data/blob/main/assets/Analyse-RH.pdf?raw=true')" class="btn btn-secondary">
-                            Voir le dashboard
-                        </button>
+                        <!--💡 MIS À JOUR: Ajoutez le lien vers le tableau de bord en ligne (Power BI, Tableau Public...) -->
+                        <a href="https://github.com/Analytic-Dev/Joelk-data/blob/main/assets/Analyse-RH.pdf" target="_blank" class="btn btn-secondary">Voir le dashboard</a>
                     </div>
                 </div>
             </div>
 
-            <!-- Projet 2 (inchangé) -->
+            <!-- Projet 2 -->
             <div class="project-card">
                 <img src="assets/images/project-placeholder-2.jpg" alt="Aperçu projet 2">
                 <div class="project-card-content">
@@ -402,7 +404,7 @@
                 </div>
             </div>
 
-            <!-- Projet 3 (inchangé) -->
+            <!-- Projet 3 -->
             <div class="project-card">
                 <img src="assets/images/project-placeholder-3.jpg" alt="Aperçu projet 3">
                 <div class="project-card-content">
@@ -415,7 +417,7 @@
                 </div>
             </div>
 
-            <!-- Projet 4 (inchangé) -->
+            <!-- Projet 4 -->
             <div class="project-card">
                 <img src="assets/images/project-placeholder-4.jpg" alt="Aperçu projet 4">
                 <div class="project-card-content">
@@ -674,83 +676,7 @@
     </div>
 </footer>
 
-<!-- MODALE POUR AFFICHER LES PDF -->
-<div id="pdf-modal" class="modal">
-    <div class="modal-content">
-        <span class="close-modal" onclick="closePdfModal()">&times;</span>
-        <iframe id="pdf-viewer" src="" width="100%" height="600px"></iframe>
-    </div>
-</div>
-
-<style>
-/* Styles de la modale - À AJOUTER DANS VOTRE FICHIER style.css */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    overflow: auto;
-}
-
-.modal-content {
-    background-color: var(--white-color, #ffffff);
-    margin: 2% auto;
-    padding: 20px;
-    width: 90%;
-    max-width: 1000px;
-    border-radius: 8px;
-    position: relative;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-}
-
-.close-modal {
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    font-size: 30px;
-    font-weight: bold;
-    cursor: pointer;
-    color: var(--light-text-color, #6c757d);
-    z-index: 1001;
-    transition: color 0.3s ease;
-}
-
-.close-modal:hover {
-    color: var(--primary-dark, #0A2F44);
-}
-
-#pdf-viewer {
-    border: none;
-    border-radius: 5px;
-    margin-top: 10px;
-    width: 100%;
-    height: 600px;
-}
-
-@media (max-width: 768px) {
-    .modal-content {
-        width: 95%;
-        margin: 5% auto;
-        padding: 15px;
-    }
-    
-    #pdf-viewer {
-        height: 400px;
-    }
-    
-    .close-modal {
-        right: 15px;
-        top: 5px;
-        font-size: 25px;
-    }
-}
-</style>
-
-<!-- Script principal -->
+<!-- Script principal (si vous en avez un) -->
 <script src="assets/js/main.js"></script>
 
 </body>
