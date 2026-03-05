@@ -93,5 +93,28 @@ Taux Transformation = DIVIDE(CALCULATE(COUNTROWS('Table'), 'Table'[Vente] = "Oui
 // Analyse avancée
 Rang Commercial = RANKX(ALL('Table'[Commercial]), [CA Total], , DESC, Dense)
 Performance Relative = DIVIDE([CA Total], CALCULATE([CA Total], ALL('Table'[Commercial])))
+```
 
 ---
+
+## 🎨 Design & expérience utilisateur
+
+- **Identité visuelle forte** : Charte bleue professionnelle (#0C2D48, #F4F8FB)
+- **Hiérarchie intuitive** : Du macro (KPI) au micro (détail transactions)
+- **Interactivité fluide** : Slicers dynamiques et filtres croisés
+- **Lecture optimisée** : Cartes avec ombre, valeurs en 26 px, mise en forme conditionnelle
+- **Navigation fluide** : 4 pages interconnectées avec onglets clairs
+- **Cohérence graphique** : Header unifié sur toutes les pages (110 px)
+
+---
+
+## 🚀 Conclusion stratégique
+
+Ce tableau de bord transforme des données brutes en **leviers d'action concrets**. Il permet à la direction commerciale de :
+
+✅ **Détecter** les opportunités de croissance en 1 clic  
+✅ **Agir** rapidement sur les points de friction identifiés  
+✅ **Mesurer** l'impact des décisions en temps réel  
+✅ **Anticiper** les tendances plutôt que subir les résultats
+
+**Un outil décisionnel qui passe de la simple visualisation à l'action opérationnelle.**
