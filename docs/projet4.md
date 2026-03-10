@@ -49,6 +49,7 @@ Le modèle repose sur :
 - **Inactive** pour analyses logistiques : Calendrier[Date] → Orders[Date d'expédition] (activée via `USERELATIONSHIP`)
 
 **Avantages :**
+
 ✔ gestion propre des analyses temporelles  
 ✔ séparation business vs logistique  
 ✔ modèle clair, lisible et performant
