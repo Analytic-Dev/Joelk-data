@@ -64,8 +64,6 @@ Le modèle repose sur :
 | **Time Intelligence** | Quantité Vendue Année N, Quantité Vendue Année N-1, Croissance N vs N-1, CA & Profit par mois |
 | **Logistique** | Nombre de commandes livrées à temps, Nombre de commandes en retard, OTD (%) – On-Time Delivery, Taux de retard (%), Délai réel / planifié moyen |
 
-> 💡 *Toutes les mesures sont optimisées pour le français.*
-
 ---
 
 ## 🖥️ Structure du Dashboard (3 pages)
