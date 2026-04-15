@@ -3,9 +3,6 @@
 
 ---
 
-## 🛠️ Outil utilisé  
-**Looker Studio**
-
 ## 📅 Période analysée  
 **1er janvier 2023 — 31 décembre 2024**
 
